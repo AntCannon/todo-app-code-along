@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AC's Todo List</title>
+	<script src="script.js" defer></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<h1 class="heading1 title">To-Do App</h1>
+		<nav class="nav">
+			<a href="#">To-Do</a>
+			<a href="./about-me/about-me.html">About Me</a>
+		</nav>
+	</header>
+	<main>
+		<section class="to-dos">
+			<h2 class="to-do heading2">To-Do Form</h2>
+			<form class="form" id="form">
+				<label class="task-label">Add a task!<br>
+					<input type="text" class="task-input" name="taskInput" id="task-input" placeholder="Add new task" required>
+				</label>
+				<input type="submit" value="Add" class="submit-button" id="submit-button">
+				<div class="errors" id="errors">
+					<!-- <span class="error">Input field must not be empty!</span> -->
+				</div>
+			</form>
+		</section>
+		<section class="to-dos">
+			<h2 class="list heading2">To-Do List</h2>
+			<ul class="list" id="list">
+				<!-- <li class="list-item">Task 1
+					<input type="button" class="delete-button" value="Delete">
+				</li>
+				<li class="list-item">Task 2
+					<input type="button" class="delete-button" value="Delete">
+				</li>
+				<li class="list-item"><span class="task complete">Task 3</span>
+					<input type="button" class="delete-button" value="Delete">
+				</li> -->
+			</ul>
+		</section>
+	</main>
+</body>
+</html>
